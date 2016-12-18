@@ -1,4 +1,3 @@
-#setwd("/Users/genevieve/ElectricConsumption/")
 #We suppose here that the dataset household_power_consumption.txt is in the working directory
 #The data contains some ? string we convert to NaN, and the separator is ";" in the file.
 consumption<- read.csv("household_power_consumption.txt", sep=";", header=TRUE,stringsAsFactors=FALSE,na.strings="?")
